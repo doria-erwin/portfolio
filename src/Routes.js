@@ -7,7 +7,7 @@ import {
 
 import Home from './pages/Home';
 
-const Routes = () => <Router>
+const Routes = () => <Router basename="/">
     <Switch>
         <Route exact path="/">
             <Home />
