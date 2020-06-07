@@ -12,13 +12,13 @@ class App extends Component{
   handleScroll=()=>{
     const header = document.getElementById("header");
     if (window.pageYOffset > 60) {
-        if(header.classList){
+        if(header){
           header.classList.add("elegant-color");
           header.classList.remove("shadow-none");
           header.classList.remove("not-scrolled");
         }
     }else{ 
-      if(header.classList){
+      if(header){
         header.classList.add("shadow-none");
         header.classList.add("navbar-light");
         header.classList.remove("elegant-color");
