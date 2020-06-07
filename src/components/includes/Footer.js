@@ -80,7 +80,7 @@ const Footer = () =>
                     {email}
                 </small>
             </a>
-            <a href={`tel:${email}`} className="text-info d-block">
+            <a href={`tel:${mobileNumber}`} className="text-info d-block">
                 <small>
                     <MDBIcon icon="phone" />
                     &nbsp;
