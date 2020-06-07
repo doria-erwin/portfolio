@@ -13,6 +13,7 @@ class Header extends Component {
         const { isOpen } = this.state;
         this.setState({ isOpen: !isOpen });
     }
+
     render() {
         return (
             <MDBNavbar color="elegant-color" dark expand="md" className="fixed-top" id="header">
@@ -25,21 +26,21 @@ class Header extends Component {
                 </MDBNavbarBrand>
                 <MDBNavbarToggler onClick={this.toggleCollapse} />
                 <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar> 
-                        <Scrollspy className="navbar-nav ml-auto" items={ ['home', 'about', 'services','portfolio','contacts'] } offset={-70} currentClassName="active-item">
+                        <Scrollspy id="nav" className="navbar-nav ml-auto text-left" items={ ['home', 'about', 'services','portfolio','contacts'] } offset={-70} currentClassName="active-item">
                             <MDBNavItem>
-                                <AnchorLink className="nav-link" href="#home">Home</AnchorLink>
+                                <AnchorLink onClick={this.toggleCollapse} className="nav-link" href="#home">Home</AnchorLink>
                             </MDBNavItem>
                             <MDBNavItem>
-                                <AnchorLink offset='60' className="nav-link" href="#about">About</AnchorLink>
+                                <AnchorLink onClick={this.toggleCollapse} offset='60' className="nav-link" href="#about">About</AnchorLink>
                             </MDBNavItem>
                             <MDBNavItem>
-                                <AnchorLink offset='60' className="nav-link" href="#services">Services</AnchorLink>
+                                <AnchorLink onClick={this.toggleCollapse} offset='60' className="nav-link" href="#services">Services</AnchorLink>
                             </MDBNavItem>
                             <MDBNavItem>
-                                <AnchorLink offset='60' className="nav-link" href="#portfolio">Portfolio</AnchorLink>
+                                <AnchorLink onClick={this.toggleCollapse} offset='60' className="nav-link" href="#portfolio">Portfolio</AnchorLink>
                             </MDBNavItem>
                             <MDBNavItem>
-                                <AnchorLink offset='60' className="nav-link" href="#contacts">Contacts</AnchorLink>
+                                <AnchorLink onClick={this.toggleCollapse} offset='60' className="nav-link" href="#contacts">Contacts</AnchorLink>
                             </MDBNavItem>
                         </Scrollspy> 
                 </MDBCollapse>
