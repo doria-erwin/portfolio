@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ce1feb9a.chunk.css",
-    "main.js": "/portfolio/static/js/main.fb676025.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.fb676025.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.35cc8ccd.chunk.css",
+    "main.js": "/portfolio/static/js/main.39e399fe.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.39e399fe.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.075c0788.js.map",
     "static/css/2.7b628d98.chunk.css": "/portfolio/static/css/2.7b628d98.chunk.css",
-    "static/js/2.e525b57d.chunk.js": "/portfolio/static/js/2.e525b57d.chunk.js",
-    "static/js/2.e525b57d.chunk.js.map": "/portfolio/static/js/2.e525b57d.chunk.js.map",
+    "static/js/2.4f013a92.chunk.js": "/portfolio/static/js/2.4f013a92.chunk.js",
+    "static/js/2.4f013a92.chunk.js.map": "/portfolio/static/js/2.4f013a92.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.353f9b587d2abeecc61e177528124742.js": "/portfolio/precache-manifest.353f9b587d2abeecc61e177528124742.js",
+    "precache-manifest.5b9bf54a11c8c97453f66b7c3c1ad18b.js": "/portfolio/precache-manifest.5b9bf54a11c8c97453f66b7c3c1ad18b.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.7b628d98.chunk.css.map": "/portfolio/static/css/2.7b628d98.chunk.css.map",
-    "static/css/main.ce1feb9a.chunk.css.map": "/portfolio/static/css/main.ce1feb9a.chunk.css.map",
-    "static/js/2.e525b57d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e525b57d.chunk.js.LICENSE.txt",
+    "static/css/main.35cc8ccd.chunk.css.map": "/portfolio/static/css/main.35cc8ccd.chunk.css.map",
+    "static/js/2.4f013a92.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4f013a92.chunk.js.LICENSE.txt",
     "static/media/mdb.css": "/portfolio/static/media/arrow_right.8ef6a08c.svg",
     "static/media/style.css": "/portfolio/static/media/bg.10604f0f.png",
     "static/media/all.min.css": "/portfolio/static/media/fa-solid-900.ec763292.svg"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.075c0788.js",
     "static/css/2.7b628d98.chunk.css",
-    "static/js/2.e525b57d.chunk.js",
-    "static/css/main.ce1feb9a.chunk.css",
-    "static/js/main.fb676025.chunk.js"
+    "static/js/2.4f013a92.chunk.js",
+    "static/css/main.35cc8ccd.chunk.css",
+    "static/js/main.39e399fe.chunk.js"
   ]
 }
