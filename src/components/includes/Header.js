@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-    MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavbarToggler, MDBCollapse
+    MDBNavbar, MDBNavbarBrand, MDBNavItem, MDBNavbarToggler, MDBCollapse
 } from "mdbreact";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Scrollspy from 'react-scrollspy'
@@ -18,7 +18,7 @@ class Header extends Component {
         return (
             <MDBNavbar color="elegant-color" dark expand="md" className="fixed-top" id="header">
                 <MDBNavbarBrand>
-                    <a className="nav-link" href="/">
+                    <a className="nav-link" href="/portfolio/#/">
                         <strong className="white-text">
                             {process.env.REACT_APP_NAME}
                         </strong>
