@@ -2,16 +2,21 @@ import React, { Component } from 'react';
 import {
     MDBNavbar, MDBNavbarBrand, MDBNavItem, MDBNavbarToggler, MDBCollapse
 } from "mdbreact";
+import { isMobile } from 'react-device-detect';
+
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Scrollspy from 'react-scrollspy'
+
 class Header extends Component {
     state = {
         isOpen: false
     }
 
     toggleCollapse = () => {
-        const { isOpen } = this.state;
-        this.setState({ isOpen: !isOpen });
+        if(isMobile){
+            const { isOpen } = this.state;
+            this.setState({ isOpen: !isOpen });
+        }
     }
 
     render() {

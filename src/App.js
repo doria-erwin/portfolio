@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import Routes from './Routes';
+import { isMobile } from 'react-device-detect';
 import './assets/css/style.css';
 
 class App extends Component {
-
-  state = {
-    isMobile: false
-  }
 
   componentDidMount() {
     this.handleScroll();
@@ -15,8 +12,7 @@ class App extends Component {
     window.addEventListener("scroll", this.handleScroll);
   }
 
-  resize() {
-    const isMobile = window.innerWidth <= 760;
+  resize() { 
     const header = document.getElementById("header");
     if (isMobile) {
       header.classList.add("elegant-color");
@@ -26,8 +22,7 @@ class App extends Component {
     this.setState({ isMobile });
   }
 
-  handleScroll = () => {
-    const { isMobile } = this.state;
+  handleScroll = () => { 
     const header = document.getElementById("header");
     if (!isMobile) {
       if (window.pageYOffset > 60) {
