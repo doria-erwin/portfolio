@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBProgress, MDBContainer, MDBIcon } from 'mdbreact';
+import { MDBContainer, MDBIcon } from 'mdbreact';
 import SubTitle from './SubTitle';
 
 import mysql from '../assets/img/mysql.png';
