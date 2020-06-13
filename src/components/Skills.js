@@ -28,17 +28,16 @@ const CustomIcon = ({name}) =>{
     return Icon
 }
 
-const Skill = ({ data }) =>
-    <li>
+const Skill = ({ data, index, isLast }) =>
+    <li className={`d-inline-block ${index > 0 ? "ml-2":""}`}>
         <small className="text-lighter">
             {data.name !== "JQuery" && data.name !== "Mysql" && data.name !== "Arduino" && data.name !== "C" ? <MDBIcon fab={data.fab} icon={data.icon} className={data.className} /> :
             <CustomIcon name={data.name}/>
             }
             <strong>
-                &nbsp;{data.name}
+                &nbsp;{data.name}{!isLast ? ',':'.'}
             </strong>
         </small>
-        <MDBProgress material value={data.average} color="info" height="10px" />
     </li>
 
 
@@ -46,8 +45,17 @@ const Skills = ({ data }) =>
     <React.Fragment>
         <SubTitle>Skills</SubTitle>
         <MDBContainer className="p-0">
-            <ul className="list-unstyled">
-                {data.map((e, i) => <Skill data={e} key={i} />)}
+            <p className="text-lighter m-0 p-0 font-weight-500 text-info">
+                <u>Proficients in:</u>
+            </p>
+            <ul className="list-unstyled d-inline-block mb-1">
+                {data.proficient.map((e, i) => <Skill data={e} key={i} index={i} isLast={data.proficient.length-1 === i}/>)}
+            </ul>
+            <p className="text-lighter m-0 p-0 font-weight-500 text-info">
+                <u>Experienced with:</u>
+            </p>
+            <ul className="list-unstyled d-inline-block mb-0">
+                {data.experienced.map((e, i) => <Skill data={e} key={i} index={i} isLast={data.experienced.length-1 === i} />)}
             </ul>
         </MDBContainer>
     </React.Fragment>

@@ -56,162 +56,151 @@ export default {
             "duration": "04/2014 - 03/2018"
         }
     ],
-    "skills": [
-        {
-            "name": "HTML5",
-            "average": 100,
-            "icon": "html5",
-            "className": "text-danger",
-            "fab": true
-        },
-        {
-            "name": "CSS3",
-            "average": 93,
-            "icon": "css3-alt",
-            "className": "text-info",
-            "fab": true
-        },
-        {
-            "name": "Javascript/ES6",
-            "average": 90,
-            "icon": "js-square",
-            "className": "text-warning",
-            "fab": true
-        },
-        {
-            "name": "Bootstrap",
-            "average": 90,
-            "icon": "bootstrap",
-            "className": "text-info",
-            "fab": true
-        },
-        {
-            "name": "MDBReact",
-            "average": 85,
-            "icon": "mdb",
-            "className": "text-info",
-            "fab": true
-        },
-        {
-            "name": "Mysql",
-            "average": 80,
-            "icon": "database",
-            "className": "text-light",
-            "fab": false
-        },
-        {
-            "name": "JQuery",
-            "average": 78,
-            "icon": "js-square",
-            "className": "text-warning",
-            "fab": true
-        },
-        {
-            "name": "Reactjs",
-            "average": 75,
-            "icon": "react",
-            "className": "text-info",
-            "fab": true
-        },
-        {
-            "name": "React-Native",
-            "average": 70,
-            "icon": "react",
-            "className": "text-info",
-            "fab": true
-        },
-        {
-            "name": "Java",
-            "average": 70,
-            "icon": "java",
-            "className": "text-danger",
-            "fab": true
-        },
-        {
-            "name": "Spring boot",
-            "average": 70,
-            "icon": "java",
-            "className": "text-danger",
-            "fab": true
-        },
-        {
-            "name": "Github",
-            "average": 70,
-            "icon": "github",
-            "className": "text-light",
-            "fab": true
-        },
-        {
-            "name": "Firebase",
-            "average": 60,
-            "icon": "fire-alt",
-            "className": "text-warning",
-            "fab": false
-        },
-        {
-            "name": "Amazon Web Services (AWS)",
-            "average": 43,
-            "icon": "aws",
-            "className": "text-light",
-            "fab": true
-        },
-        {
-            "name": "Nodejs",
-            "average": 42,
-            "icon": "node-js",
-            "className": "text-success",
-            "fab": true
-        },
-        {
-            "name": "PHP",
-            "average": 40,
-            "icon": "php",
-            "className": "text-info",
-            "fab": true
-        },
-        {
-            "name": "Python",
-            "average": 40,
-            "icon": "python",
-            "className": "text-warning",
-            "fab": true
-        },
-        {
-            "name": "Angularjs",
-            "average": 20,
-            "icon": "angular",
-            "className": "text-danger",
-            "fab": true
-        },
-        {
-            "name": "Wordpress",
-            "average": 10,
-            "icon": "wordpress",
-            "className": "text-info",
-            "fab": true
-        },
-        {
-            "name": "Raspberry PI",
-            "average": 10,
-            "icon": "raspberry-pi",
-            "className": "text-danger",
-            "fab": true
-        },
-        {
-            "name": "Arduino",
-            "average": 10,
-            "icon": "",
-            "className": "",
-            "fab": false
-        },
-        {
-            "name": "C",
-            "average": 10,
-            "icon": "",
-            "className": "",
-            "fab": false
-        }
-    ],
+    "skills": {
+        "proficient":[
+            {
+                "name": "HTML5",
+                "icon": "html5",
+                "className": "text-danger",
+                "fab": true
+            },
+            {
+                "name": "CSS3",
+                "icon": "css3-alt",
+                "className": "text-info",
+                "fab": true
+            },
+            {
+                "name": "Javascript/ES6",
+                "icon": "js-square",
+                "className": "text-warning",
+                "fab": true
+            },
+            {
+                "name": "Bootstrap",
+                "icon": "bootstrap",
+                "className": "text-info",
+                "fab": true
+            },
+            {
+                "name": "MDBReact",
+                "icon": "mdb",
+                "className": "text-info",
+                "fab": true
+            },
+            {
+                "name": "Mysql",
+                "icon": "database",
+                "className": "text-light",
+                "fab": false
+            },
+            {
+                "name": "JQuery",
+                "icon": "js-square",
+                "className": "text-warning",
+                "fab": true
+            },
+            {
+                "name": "Reactjs",
+                "icon": "react",
+                "className": "text-info",
+                "fab": true
+            },
+            {
+                "name": "React-Native",
+                "icon": "react",
+                "className": "text-info",
+                "fab": true
+            },
+            {
+                "name": "Redux",
+                "icon": "react",
+                "className": "text-info",
+                "fab": true
+            },
+            {
+                "name": "Java",
+                "icon": "java",
+                "className": "text-danger",
+                "fab": true
+            },
+            {
+                "name": "Spring boot",
+                "icon": "java",
+                "className": "text-danger",
+                "fab": true
+            },
+            {
+                "name": "Github",
+                "icon": "github",
+                "className": "text-light",
+                "fab": true
+            },
+            {
+                "name": "Firebase",
+                "icon": "fire-alt",
+                "className": "text-warning",
+                "fab": false
+            },
+            {
+                "name": "Amazon Web Services (AWS)",
+                "icon": "aws",
+                "className": "text-light",
+                "fab": true
+            },
+            {
+                "name": "Nodejs",
+                "icon": "node-js",
+                "className": "text-success",
+                "fab": true
+            },
+            {
+                "name": "PHP",
+                "icon": "php",
+                "className": "text-info",
+                "fab": true
+            },
+            {
+                "name": "Python",
+                "icon": "python",
+                "className": "text-warning",
+                "fab": true
+            },
+            
+        ],
+        "experienced":[
+            {
+                "name": "Angularjs",
+                "icon": "angular",
+                "className": "text-danger",
+                "fab": true
+            },
+            {
+                "name": "Wordpress",
+                "icon": "wordpress",
+                "className": "text-info",
+                "fab": true
+            },
+            {
+                "name": "Raspberry PI",
+                "icon": "raspberry-pi",
+                "className": "text-danger",
+                "fab": true
+            },
+            {
+                "name": "Arduino",
+                "icon": "",
+                "className": "",
+                "fab": false
+            },
+            {
+                "name": "C",
+                "icon": "",
+                "className": "",
+                "fab": false
+            }
+        ]
+    },
     "portfolios": [
         {
             "title": "Water Level Monitoring System",
