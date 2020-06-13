@@ -10,7 +10,7 @@ import mobile from '../assets/img/mobile.png';
 import laptop from '../assets/img/laptop.png';
 import iot from '../assets/img/iot.png';
 
-import data from '../data.json';
+import data from '../data';
 
 const { servicesCaption, websiteCaption, mobileCaption, desktopCaption, iotCaption } = data;
 

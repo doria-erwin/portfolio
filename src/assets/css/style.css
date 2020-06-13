@@ -1,4 +1,15 @@
+@media only screen and (max-width: 965px) {
+  .mobile-modal{
+    height: 50vh !important;
+    width: 60% !important;
+  }
+}
+
 @media only screen and (max-width: 700px) {
+  .video-wrapper{
+    width:100%;
+    height: 300px !important;
+  }
   small.float-right {
     float: none !important;
   }
@@ -26,6 +37,18 @@
   #more-about{
     bottom:.5em !important;
     font-size: .8em !important;
+  }
+  .mobile-modal{
+    height: 50vh !important;
+    width: 60% !important;
+  }
+}
+
+
+@media only screen and (min-width: 965px) {
+  .mobile-modal{
+    height: 60vh !important;
+    width: 35% !important;
   }
 }
 body {
@@ -84,9 +107,6 @@ a.text-lighter:hover {
   left: 0;
   right: 0;
 }
-.portfolio-btn img{
-  object-fit: cover;
-}
 .portfolio-btn:hover div{
   transition: 1s;
   background:#263238c7 !important;
@@ -100,7 +120,7 @@ a.text-lighter:hover {
   top: 0;
   left: 0;
   display: block !important;
-  background:#22222252;
+  background:#22222291;
 }
 .portfolio-btn div p{
   position: absolute;
@@ -125,10 +145,23 @@ a.text-lighter:hover {
 .custom-logo-mysql{
   height: 18px;
   width: 18px;
+  margin-top: -5px;
 }
 .custom-logo-jquery{
   height: 14px;
   width: 14px;
+  position: relative;
+  bottom:2px
+}
+.custom-logo-arduino{
+  height: 18px;
+  width: 18px;
+  position: relative;
+  bottom:2px
+}
+.custom-logo-c{
+  height: 18px;
+  width: 18px;
   position: relative;
   bottom:2px
 }
@@ -161,4 +194,67 @@ li.active-item a{
 
 .navbar-nav li a{
   font-weight: 500;
+}
+.portfolio-img{
+  height: 250px;
+  width: 100%;
+  object-fit: fill;
+  padding: 15px 0;
+}
+.mobile{
+  width: auto !important;
+}
+.modal-footer{
+  overflow: scroll;
+  width: 100%;
+  white-space: nowrap;
+  display: inline-block;
+}
+.modal-footer img{
+  cursor: pointer;
+  height: 65px;
+  width: 100px;
+  object-fit: contain;
+  background:#22222291;
+  padding:5px
+
+}
+.modal{
+  background:transparent !important;
+}
+
+.modal-header,.modal-footer{
+  border-radius: 0 !important;
+  border:none !important;
+}
+
+button.close, button.close:hover{
+  color:#fff;
+}
+
+.cursor-pointer{
+  cursor: pointer !important;
+}
+.btn-video{
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+  z-index: 99999;
+}
+.video-wrapper{
+  width:100%;
+  height: 500px;
+}
+video{
+  width:100%;
+  height: 100%;
+}
+.modal div{
+  border:none !important;
+}
+.modal-content{
+  background:#2e2e2e !important
+}
+.modal-header{
+  padding-bottom: 0 !important;
 }

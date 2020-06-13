@@ -5,7 +5,7 @@ import Caption from '../components/Caption';
 import Works from '../components/Works';
 import Educations from '../components/Educations';
 import Skills from '../components/Skills';
-import data from '../data.json';
+import data from '../data';
 
 const { aboutCaption, works, educations, skills } = data;
 

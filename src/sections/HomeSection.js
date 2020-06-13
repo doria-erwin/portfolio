@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBContainer, MDBIcon, MDBTypography } from 'mdbreact';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import data from '../data.json';
+import data from '../data';
 
 const { jobTitle,quote } = data;
 

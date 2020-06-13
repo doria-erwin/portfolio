@@ -4,12 +4,36 @@ import SubTitle from './SubTitle';
 
 import mysql from '../assets/img/mysql.png';
 import jquery from '../assets/img/jquery.png';
+import arduino from '../assets/img/arduino.png';
+import c from '../assets/img/c.png';
+
+const CustomIcon = ({name}) =>{
+    let Icon = null;
+    switch(name){
+        case 'Mysql':
+            Icon = <img src={mysql} alt={name} className="custom-logo" />
+        break;
+        case 'JQuery':
+            Icon = <img src={jquery} alt={name} className="custom-logo" />
+        break;
+        case 'Arduino':
+            Icon = <img src={arduino} alt={name} className="custom-logo" />
+        break;
+        case 'C':
+            Icon = <img src={c} alt={name} className="custom-logo" />
+        break;
+        default:
+             Icon = null;
+    }
+    return Icon
+}
 
 const Skill = ({ data }) =>
     <li>
         <small className="text-lighter">
-            {data.name !== "JQuery" && data.name !== "Mysql" && <MDBIcon fab={data.fab} icon={data.icon} className={data.className} />}
-            {(data.name === "JQuery" || data.name === "Mysql") && <img src={data.name === "JQuery" ? jquery : mysql} alt={data.name} className="custom-logo" />}
+            {data.name !== "JQuery" && data.name !== "Mysql" && data.name !== "Arduino" && data.name !== "C" ? <MDBIcon fab={data.fab} icon={data.icon} className={data.className} /> :
+            <CustomIcon name={data.name}/>
+            }
             <strong>
                 &nbsp;{data.name}
             </strong>

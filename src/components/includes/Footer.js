@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBContainer, MDBIcon } from 'mdbreact';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import data from '../../data.json';
+import data from '../../data';
 
 const { personal } = data;
 const { email, mobileNumber, facebook, instagram, google, twitter, youtube } = personal;

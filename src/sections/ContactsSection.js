@@ -6,7 +6,7 @@ import emailjs from 'emailjs-com';
 import { isEmail } from '../utils/validation';
 
 
-import data from '../data.json';
+import data from '../data';
 
 const { contactsCaption } = data;
 
