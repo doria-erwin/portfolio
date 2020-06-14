@@ -2,6 +2,7 @@ import React from 'react';
 import { MDBContainer, MDBIcon } from 'mdbreact';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import data from '../../data';
+import cv from '../../assets/others/CV.pdf';
 
 const { personal } = data;
 const { email, mobileNumber, facebook, instagram, google, twitter, youtube } = personal;
@@ -45,6 +46,13 @@ const Footer = () =>
                     </AnchorLink>
                 </li>
                 <li className="list-inline-item">
+                    <a href={cv} download="ErwinDoria.resume.pdf" arget="_blank" rel="noopener noreferrer" className="text-lighter w-100 h-100 d-flex flex-row justify-content-center align-items-center">
+                        <small>
+                            RESUME
+                        </small>
+                    </a>
+                </li>
+                <li className="list-inline-item">
                     <AnchorLink offset="60" href="#about" target="_blank" rel="noopener noreferrer" className="text-lighter w-100 h-100 d-flex flex-row justify-content-center align-items-center">
                         <small>
                             ABOUT
@@ -73,6 +81,7 @@ const Footer = () =>
                     </AnchorLink>
                 </li>
             </ul>
+
             <a href={`mailto:${email}`} className="text-info d-block">
                 <small>
                     <MDBIcon icon="envelope" />

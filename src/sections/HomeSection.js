@@ -20,7 +20,7 @@ const HomeSection = () =>
             </MDBTypography>
 
             <MDBContainer className="text-center">
-            <a href={cv} download="ErwinDoria.resume.pdf" className="btn btn-info btn-sm">Download Resume</a>
+                <a href={cv} download="ErwinDoria.resume.pdf" className="btn btn-info btn-sm">Download Resume</a>
             </MDBContainer>
             <MDBContainer id="more-about" className="text-center position-absolute">
                 <AnchorLink offset="60" href="#about" className="text-lighter font-weight-bold">
