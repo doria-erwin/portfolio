@@ -52,7 +52,7 @@ const Skills = ({ data }) =>
                 {data.proficient.map((e, i) => <Skill data={e} key={i} index={i} isLast={data.proficient.length-1 === i}/>)}
             </ul>
             <p className="text-lighter m-0 p-0 font-weight-500 text-info">
-                <u>Experienced with:</u>
+                <u>Experienced in:</u>
             </p>
             <ul className="list-unstyled d-inline-block mb-0">
                 {data.experienced.map((e, i) => <Skill data={e} key={i} index={i} isLast={data.experienced.length-1 === i} />)}
