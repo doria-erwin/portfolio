@@ -18,7 +18,7 @@ export default {
             "email": "info@rnrdigitalconsultancy.com",
             "phone": "+639275274549",
             "facebook": "https://www.facebook.com/RNRDigitalConsultancy/",
-            "duration": "13/2018 - 08/2019",
+            "duration": "12/2018 - 08/2019",
             "responsibilities": [
                 "Responsible for developing Restful API's",
                 "Responsible for developing websites and mobile applications"
