@@ -2,6 +2,7 @@ import React from 'react';
 import { MDBContainer, MDBIcon, MDBTypography } from 'mdbreact';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import data from '../data';
+import cv from '../assets/others/CV.pdf';
 
 const { jobTitle,quote } = data;
 
@@ -17,6 +18,10 @@ const HomeSection = () =>
             <MDBTypography tag="h6" className="quote text-center text-lighter font-weight-500">
                {quote}
             </MDBTypography>
+
+            <MDBContainer className="text-center">
+            <a href={cv} download="Erwin Doria.resume.pdf" className="btn btn-info btn-sm">Download Resume</a>
+            </MDBContainer>
             <MDBContainer id="more-about" className="text-center position-absolute">
                 <AnchorLink offset="60" href="#about" className="text-lighter font-weight-bold">
                     Learn more about what I do

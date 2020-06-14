@@ -35,6 +35,7 @@ export default {
             "duration": "08/2019 - present",
             "responsibilities": [
                 "Responsible for developing Restful API's",
+                "Responsible for migrating Databases, Restful API's and Websites to apache Linux Servers",
                 "Responsible for developing websites and mobile applications",
                 "Successfully created the \"Ticketing System\" in Raspberry pi based in python (IOT) used for events",
                 "Produced cost estimation for our proposed projects",
