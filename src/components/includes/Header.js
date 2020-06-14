@@ -3,7 +3,7 @@ import {
     MDBNavbar, MDBNavbarBrand, MDBNavItem, MDBNavbarToggler, MDBCollapse
 } from "mdbreact";
 import { isMobile } from 'react-device-detect';
-import cv from '../../assets/others/CV.pdf';
+import cv from '../../assets/others/resume.pdf';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Scrollspy from 'react-scrollspy'
 

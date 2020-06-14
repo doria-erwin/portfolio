@@ -19,9 +19,13 @@ export default {
             "phone": "+639275274549",
             "facebook": "https://www.facebook.com/RNRDigitalConsultancy/",
             "duration": "12/2018 - 08/2019",
-            "responsibilities": [
-                "Responsible for developing Restful API's",
-                "Responsible for developing websites and mobile applications"
+            "responsibilities": [  
+                "Designed, implemented and monitored web pages and sites for continuous improvement",
+                "Analyzed requirements and designed, developed and implemented software applications for multiple websites",
+                "Converted mockups into HTML, JavaScript, AJAX and JSON",
+                "Used programming capabilities in PHP, SQL and JavaScript and other libraries as needed.",
+                "Planned and engineered RESTful web services to manipulate dynamic datasets",
+                "Created site layout and user interface using HTML and CSS practices",
             ]
         },
         {
@@ -34,7 +38,9 @@ export default {
             "facebook": "https://www.facebook.com/mytckt",
             "duration": "08/2019 - present",
             "responsibilities": [
-                "Responsible for developing Restful API's",
+                "Planned and engineered RESTful web services to manipulate dynamic datasets",
+                "Set up and controlled user profiles and access levels for each database segment to protect important data",
+                "Modified existing databases to meet unique needs and goals determined during initial evaluation and planning process",
                 "Responsible for migrating Databases, Restful API's and Websites to apache Linux Servers",
                 "Responsible for developing websites and mobile applications",
                 "Successfully created the \"Ticketing System\" in Raspberry pi based in python (IOT) used for events",

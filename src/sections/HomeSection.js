@@ -2,7 +2,7 @@ import React from 'react';
 import { MDBContainer, MDBIcon, MDBTypography } from 'mdbreact';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import data from '../data';
-import cv from '../assets/others/CV.pdf';
+import cv from '../assets/others/resume.pdf';
 
 const { jobTitle,quote } = data;
 
