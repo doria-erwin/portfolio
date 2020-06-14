@@ -1,20 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e463ce45.chunk.css",
-    "main.js": "/portfolio/static/js/main.19732e65.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.19732e65.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.1eecc675.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1eecc675.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.075c0788.js.map",
     "static/css/2.dff294d0.chunk.css": "/portfolio/static/css/2.dff294d0.chunk.css",
     "static/js/2.f9db4026.chunk.js": "/portfolio/static/js/2.f9db4026.chunk.js",
     "static/js/2.f9db4026.chunk.js.map": "/portfolio/static/js/2.f9db4026.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.eb73482333639e072fa1efc276b03fc1.js": "/portfolio/precache-manifest.eb73482333639e072fa1efc276b03fc1.js",
+    "precache-manifest.8299a8a89dcf6e010371b0f0d1fea8f1.js": "/portfolio/precache-manifest.8299a8a89dcf6e010371b0f0d1fea8f1.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.dff294d0.chunk.css.map": "/portfolio/static/css/2.dff294d0.chunk.css.map",
     "static/css/main.e463ce45.chunk.css.map": "/portfolio/static/css/main.e463ce45.chunk.css.map",
     "static/js/2.f9db4026.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f9db4026.chunk.js.LICENSE.txt",
-    "static/media/CV.pdf": "/portfolio/static/media/CV.28e5b1fe.pdf",
     "static/media/mdb.css": "/portfolio/static/media/arrow_right.8ef6a08c.svg",
     "static/media/ba-assemble1.png": "/portfolio/static/media/ba-assemble1.81453169.png",
     "static/media/ba-assemble2.png": "/portfolio/static/media/ba-assemble2.12af4268.png",
@@ -71,6 +70,7 @@
     "static/media/jp-slip1.png": "/portfolio/static/media/jp-slip1.bad2df65.png",
     "static/media/jp-slip2.png": "/portfolio/static/media/jp-slip2.c1e070c8.png",
     "static/media/jp-users.png": "/portfolio/static/media/jp-users.bd2f5bbc.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.7c5dd4c4.pdf",
     "static/media/w-dashboard.png": "/portfolio/static/media/w-dashboard.b00974f4.png",
     "static/media/w-reports.png": "/portfolio/static/media/w-reports.95165330.png",
     "static/media/w-settings1.png": "/portfolio/static/media/w-settings1.ec81cdbc.png",
@@ -84,6 +84,6 @@
     "static/css/2.dff294d0.chunk.css",
     "static/js/2.f9db4026.chunk.js",
     "static/css/main.e463ce45.chunk.css",
-    "static/js/main.19732e65.chunk.js"
+    "static/js/main.1eecc675.chunk.js"
   ]
 }
