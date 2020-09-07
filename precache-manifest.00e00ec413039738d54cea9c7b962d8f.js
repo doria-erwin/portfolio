@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aff2e82d44ecab4d484959dff0096cd4",
+    "revision": "69cbef6a9d12b921ccf16d8ae6f17874",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "db67523b64d423e5811a",
-    "url": "/portfolio/static/css/2.dff294d0.chunk.css"
+    "revision": "88a0b23e6a31e436e31f",
+    "url": "/portfolio/static/css/2.73038666.chunk.css"
   },
   {
-    "revision": "abaccac13c3ed1d5a44e",
-    "url": "/portfolio/static/css/main.b6890fcc.chunk.css"
+    "revision": "7364b13693b1654a17a2",
+    "url": "/portfolio/static/css/main.3de02028.chunk.css"
   },
   {
-    "revision": "db67523b64d423e5811a",
-    "url": "/portfolio/static/js/2.f9db4026.chunk.js"
+    "revision": "88a0b23e6a31e436e31f",
+    "url": "/portfolio/static/js/2.5740a4f3.chunk.js"
   },
   {
     "revision": "25e1ff24efa206f36f0cf792ee084b6b",
-    "url": "/portfolio/static/js/2.f9db4026.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.5740a4f3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "abaccac13c3ed1d5a44e",
-    "url": "/portfolio/static/js/main.1eecc675.chunk.js"
+    "revision": "7364b13693b1654a17a2",
+    "url": "/portfolio/static/js/main.d8128f22.chunk.js"
   },
   {
     "revision": "f619aeccc94a0d089131",
@@ -244,6 +244,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fa-solid-900.ec763292.svg"
   },
   {
+    "revision": "36929981c9b87a1a93b946382d2ad20b",
+    "url": "/portfolio/static/media/grapql.36929981.png"
+  },
+  {
     "revision": "3d276bac252b6218d4842f64783838f9",
     "url": "/portfolio/static/media/jp-add-users.3d276bac.png"
   },
@@ -312,8 +316,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/jp-users.bd2f5bbc.png"
   },
   {
-    "revision": "7c5dd4c4137f7ab3adb7c004ef1fbf67",
-    "url": "/portfolio/static/media/resume.7c5dd4c4.pdf"
+    "revision": "ca2e98eca886a87b6eedd512304a01e4",
+    "url": "/portfolio/static/media/resume.ca2e98ec.pdf"
   },
   {
     "revision": "b00974f4c73b87544be658893ad9567f",
