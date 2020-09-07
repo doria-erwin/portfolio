@@ -1,16 +1,18 @@
+/** @format */
+
 @media only screen and (max-width: 965px) {
-  .mobile-modal{
+  .mobile-modal {
     height: 50vh !important;
     width: 60% !important;
   }
 }
 
 @media only screen and (max-width: 900px) {
-  .col-sm-12.col-md-4.col-lg-4.text-center{
+  .col-sm-12.col-md-4.col-lg-4.text-center {
     margin-bottom: 1em !important;
   }
-  .video-wrapper{
-    width:100%;
+  .video-wrapper {
+    width: 100%;
     height: 300px !important;
   }
   small.float-right {
@@ -18,52 +20,52 @@
   }
   .title {
     font-size: 2em !important;
-    line-height: .9em;
+    line-height: 0.9em;
   }
-  .sub-title{
+  .sub-title {
     font-size: 1.5em !important;
   }
-  .quote{
-    font-size: .8em !important;
+  .quote {
+    font-size: 0.8em !important;
   }
-  .portfolio-btn div{
+  .portfolio-btn div {
     transition: 1s;
-    background:#263238c7 !important;
+    background: #263238c7 !important;
   }
-  .portfolio-btn p{
+  .portfolio-btn p {
     transition: 1s;
     opacity: 1 !important;
   }
-  #contacts .form-contact-wrapper{
+  #contacts .form-contact-wrapper {
     width: 100% !important;
   }
-  #more-about{
-    bottom:.5em !important;
-    font-size: .8em !important;
+  #more-about {
+    bottom: 0.5em !important;
+    font-size: 0.8em !important;
   }
-  .mobile-modal{
+  .mobile-modal {
     height: 50vh !important;
     width: 60% !important;
   }
 }
 
-
 @media only screen and (min-width: 965px) {
-  .mobile-modal{
+  .mobile-modal {
     height: 60vh !important;
     width: 35% !important;
   }
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-#home,#contacts {
-  background: url("../img/bg.png") no-repeat center center;
+#home,
+#contacts {
+  background: url('../img/bg.png') no-repeat center center;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -103,161 +105,163 @@ a.text-lighter:hover {
   font-weight: 500;
 }
 .quote {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 #more-about {
   bottom: 2em;
   left: 0;
   right: 0;
 }
-.portfolio-btn:hover div{
+.portfolio-btn:hover div {
   transition: 1s;
-  background:#263238c7 !important;
+  background: #263238c7 !important;
 }
-.portfolio-btn:hover p{
+.portfolio-btn:hover p {
   transition: 1s;
   opacity: 1;
 }
-.portfolio-btn div{
+.portfolio-btn div {
   position: absolute;
   top: 0;
   left: 0;
   display: block !important;
-  background:#22222291;
+  background: #22222291;
 }
-.portfolio-btn div p{
+.portfolio-btn div p {
   position: absolute;
   top: 45%;
   text-align: center;
   opacity: 0;
 }
-.portfolio-btn div .left{
+.portfolio-btn div .left {
   position: absolute;
-  bottom:10px;
+  bottom: 10px;
   left: 10px;
 }
-.portfolio-btn div .right{
+.portfolio-btn div .right {
   position: absolute;
-  bottom:10px;
+  bottom: 10px;
   right: 10px;
 }
-.custom-logo{
+.custom-logo {
   height: 14px;
   width: 14px;
+  object-fit: contain;
 }
-.custom-logo-mysql{
+.custom-logo-mysql {
   height: 18px;
   width: 18px;
   margin-top: -5px;
 }
-.custom-logo-jquery{
+.custom-logo-jquery {
   height: 14px;
   width: 14px;
   position: relative;
-  bottom:2px
+  bottom: 2px;
 }
-.custom-logo-arduino{
+.custom-logo-arduino {
   height: 18px;
   width: 18px;
   position: relative;
-  bottom:2px
+  bottom: 2px;
 }
-.custom-logo-c{
+.custom-logo-c {
   height: 18px;
   width: 18px;
   position: relative;
-  bottom:2px
+  bottom: 2px;
 }
-.cursor-pointer{
+.cursor-pointer {
   cursor: pointer;
 }
-#contacts .form-contact-wrapper{
+#contacts .form-contact-wrapper {
   width: 40%;
 }
 #message {
   resize: none;
   height: 100px;
 }
-.bg-transparent{
-  background:transparent !important;
+.bg-transparent {
+  background: transparent !important;
 }
-#social-icons li{
+#social-icons li {
   border: solid 1px #33b5e5 !important;
   border-radius: 100%;
   height: 40px;
   width: 40px;
-} 
-li.active-item a{
+}
+li.active-item a {
   color: #33b5e5 !important;
 }
 
-.not-scrolled li.active-item a{
-  color:#2e2e2e !important;
+.not-scrolled li.active-item a {
+  color: #2e2e2e !important;
 }
 
-.navbar-nav li a{
+.navbar-nav li a {
   font-weight: 500;
 }
-.portfolio-img{
+.portfolio-img {
   height: 250px;
   width: 100%;
   object-fit: fill;
   padding: 15px 0;
 }
-.mobile{
+.mobile {
   width: auto !important;
 }
-.modal-footer{
+.modal-footer {
   overflow: scroll;
   width: 100%;
   white-space: nowrap;
   display: inline-block;
 }
-.modal-footer img{
+.modal-footer img {
   cursor: pointer;
   height: 65px;
   width: 100px;
   object-fit: contain;
-  background:#22222291;
-  padding:5px
-
+  background: #22222291;
+  padding: 5px;
 }
-.modal{
-  background:transparent !important;
+.modal {
+  background: transparent !important;
 }
 
-.modal-header,.modal-footer{
+.modal-header,
+.modal-footer {
   border-radius: 0 !important;
-  border:none !important;
+  border: none !important;
 }
 
-button.close, button.close:hover{
-  color:#fff;
+button.close,
+button.close:hover {
+  color: #fff;
 }
 
-.cursor-pointer{
+.cursor-pointer {
   cursor: pointer !important;
 }
-.btn-video{
+.btn-video {
   top: 50%;
   left: 50%;
   cursor: pointer;
   z-index: 99999;
 }
-.video-wrapper{
-  width:100%;
+.video-wrapper {
+  width: 100%;
   height: 500px;
 }
-video{
-  width:100%;
+video {
+  width: 100%;
   height: 100%;
 }
-.modal div{
-  border:none !important;
+.modal div {
+  border: none !important;
 }
-.modal-content{
-  background:#2e2e2e !important
+.modal-content {
+  background: #2e2e2e !important;
 }
-.modal-header{
+.modal-header {
   padding-bottom: 0 !important;
 }
