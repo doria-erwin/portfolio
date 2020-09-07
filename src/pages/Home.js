@@ -1,3 +1,5 @@
+/** @format */
+
 import React from 'react';
 import { MDBContainer } from 'mdbreact';
 import Header from '../components/includes/Header';
@@ -8,17 +10,18 @@ import PortfolioSection from '../sections/PortfolioSection';
 import ContactsSection from '../sections/ContactsSection';
 import Footer from '../components/includes/Footer';
 
-const Home = () =>
-    <React.Fragment>
-        <Header />
-        <MDBContainer fluid className="p-0">
-            <HomeSection />
-            <AboutSection />
-            <ServicesSection />
-            <PortfolioSection />
-            <ContactsSection />
-        </MDBContainer>
-        <Footer />
-    </React.Fragment>
+const Home = () => (
+  <React.Fragment>
+    <Header />
+    <MDBContainer fluid className='p-0'>
+      <HomeSection />
+      <AboutSection />
+      {/* <ServicesSection /> */}
+      <PortfolioSection />
+      <ContactsSection />
+    </MDBContainer>
+    <Footer />
+  </React.Fragment>
+);
 
 export default Home;
